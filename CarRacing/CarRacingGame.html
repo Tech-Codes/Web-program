@@ -401,7 +401,6 @@ function loop() {
   updateGame();
   updateUI();
 
-  // Speed lines (HUD effect)
   if (speed > 5) {
     ctx.save();
     ctx.globalAlpha = (speed - 5) / 20;
